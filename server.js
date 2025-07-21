@@ -20,7 +20,8 @@ const port = process.env.PORT || 8000;
 // CORS für Cookies
 app.use(
   cors({
-    origin: "https://hogwarts-and-the-hat.onrender.com",
+    origin: "https://hogwarts-and-the-hat-project.onrender.com",
+
     credentials: true,
   })
 );
